@@ -87,8 +87,8 @@ for (let index = 0; index < btns.length; index++) {
 var img = document.querySelector('.imgs1')
 var about = document.getElementById('about-us')
 setInterval(() => {
-    img.setAttribute('src', `/assets/food/food${Math.floor(Math.random() * 3 + 2)}.jpeg`)
+    img.setAttribute('src', `../assets/food/food${Math.floor(Math.random() * 3 + 2)}.jpeg`)
 }, 1000)
 setInterval(() => {
-    about.setAttribute('src', `/assets/food/food${Math.floor(Math.random() * 3 + 2)}.jpeg`)
+    about.setAttribute('src', `../assets/food/food${Math.floor(Math.random() * 3 + 2)}.jpeg`)
 }, 2000)
