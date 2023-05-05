@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogue page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/catalogue.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <nav class="globalnav ">
+            <div class="logo"><img src="../assets/food/cooking1.png" alt=""></div>
+
+            <ul class="ulCatalogue1 display">
+                <li><a href="./index.html" >Home</a></li>
+                <li><a href="https://www.google.com/">About us</a></li>
+                <li><a href="./catalogue.html">Catalogue</a></li>
+                <li><a href="#footer">Contect us</a></li>
+                <li id="responsive_category">category</li>
+
+            </ul>
+            <div class="menu" ><img src="../assets/food/menu-regular-24.png" alt=""></div>
+        </nav>
+        <nav class="categorynav display ">
+            <ul>
+                <li id="Petit déjeuner">Petit déjeuner</li>
+                <li id="Déjeuner">Déjeuner</li>
+                <li id="Entrée">Entrée</li>
+                <li id="Plat">Plat</li>
+                <li id="Dîner">Dîner</li>
+                <li id="Plat principal">Plat principal</li>
+            </ul>
+        </nav>
+    </nav>
+
+    <h1> Les receetes</h1>
+    <main>
+   
+      
+        <section class="recipes">
+            <div class="inputs">
+                    <input type="text" placeholder="entre name" id="inp">
+                  <!-- <button id="add-recipe">add your recipe</button> -->
+                    <select name="" id="select" title="choise category">
+                        <option value="all">all</option>
+                        <option value="Petit déjeuner">Petit déjeuner</option>
+                        <option value="Déjeuner">Déjeuner</option>
+                        <option value="Entrée">Entrée</option>
+                        <option value="Plat">Plat</option>
+                        <option value="Dîner">Dîner</option>
+                        <option value="Plat principal">Plat principal</option>
+                    </select>
+                </div>
+               
+            <section class="list_recipes">
+                
+
+
+            </section>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="social-icons">
+                <a href="mailto:ghmamnbyl@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://twitter.com/your-username-here" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/your-username-here" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/your-page-link-here" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://github.com/your-username-here" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/your-profile-link-here" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script type="module" src="../js/srcipt_catalogue.js"></script>
+
+</html>
